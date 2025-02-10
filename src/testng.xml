@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite">
+    <test name="Feature Test case">
+        <classes>
+            <class name="qa.com.testng.ExceptionTimeOutTest"/>
+            <class name="qa.com.testng.GoogleTest"/>
+        </classes>
+    </test>
+</suite>

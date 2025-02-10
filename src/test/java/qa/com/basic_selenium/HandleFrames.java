@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class HandleFrames {
     public static void main(String[] args) throws InterruptedException {

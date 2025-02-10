@@ -17,11 +17,11 @@ public class MouseMovementConcepts {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
         driver.get("https://www.unishivaji.ac.in/");
         Actions action = new Actions(driver);
-        action.moveToElement(driver.findElement(By.xpath("//*[@id='MenuBar']/ul/li[5]/a"))).build().perform();
-        driver.findElement(By.xpath("//*[@id='MenuBar']/ul/li[5]/ul/li[2]/a")).click();
-        Thread.sleep(5000);
+        action.moveToElement(driver.findElement(By.xpath("//*[@id='MenuBar']/ul/li[5]/a")))
+                .moveToElement(driver.findElement(By.xpath("//*[@id='MenuBar']/ul/li[5]/ul/li[2]/a")))
+                .moveToElement(driver.findElement(By.xpath("//*[@id=\"MenuBar\"]/ul/li[5]/ul/li[2]/ul/li[1]/a")))
+                .build().perform();
+        Thread.sleep(500000);
         driver.quit();
-
-
     }
 }

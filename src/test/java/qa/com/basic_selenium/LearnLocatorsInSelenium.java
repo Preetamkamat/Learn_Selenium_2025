@@ -1,10 +1,8 @@
 package qa.com.basic_selenium;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
 
 public class LearnLocatorsInSelenium {
     public static void main(String[] args) throws InterruptedException {
