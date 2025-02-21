@@ -14,7 +14,7 @@ public class HandleWindowsPopUp {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
         driver.get("https://demoqa.com/browser-windows");
-        https://www.youtube.com/watch?v=PUanHXTSlR8
+//        https://www.youtube.com/watch?v=PUanHXTSlR8
 
 
     }
